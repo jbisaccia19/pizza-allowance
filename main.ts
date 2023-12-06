@@ -62,15 +62,15 @@ function eatPizza () {
     }
 }
 function checkWallet () {
-    if (MoneyInWallet > costPizza(20, 3)) {
-        return true
-    } else {
-        return false
-    }
+	
 }
 let noPizza: Sprite = null
 let myPizza: Sprite = null
 let totalCost = 0
-let MoneyInWallet = 0
-MoneyInWallet = 254
+let MoneyInWallet = 254
 eatPizza()
+if (MoneyInWallet > costPizza(20, 3)) {
+	
+} else {
+	
+}
